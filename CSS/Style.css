@@ -1,5 +1,5 @@
 body {
-background:blue url(Images/bg.jpg) repeat-x;
+background:	#F0F8FF url(Images/bg.jpg) repeat-x;
 }
 
 #wrap {
@@ -17,6 +17,12 @@ margin:0px auto 15px auto;
 font-family: "Times New Roman", Verdana, Arial, Helvetica, sans-serif;
 color: #7FFFD4;
 }
+
+#topbar {
+ height: 75px;     
+      
+}
+
 /*Header Menu*/
 #topmenu { 
       display:block;
