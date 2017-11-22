@@ -1,5 +1,5 @@
 body {
-background:	#696969 url("https://github.com/MarkoKii/WWW-course-page/blob/master/Images/bg.jpg?raw=true") repeat-x repeat-y;
+background:	#696969 url("https://github.com/MarkoKii/WWW-course-page/blob/master/Images/bg.jpg?raw=true") repeat-x;
 }
 
 #wrap {
@@ -107,4 +107,10 @@ margin:0 auto;
  font-family: Verdana, Arial, Helvetica, sans-serif;
  font-size: 11px;
  clear: both;
+}
+
+table, th, td  {
+border:2px inset solid #90EE90;
+border-collapse: collapse;
+
 }
