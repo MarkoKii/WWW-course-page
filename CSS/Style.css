@@ -112,5 +112,8 @@ margin:0 auto;
 table, th, td  {
 border:2px inset solid #90EE90;
 border-collapse: collapse;
-
+          padding: 5px;
+}
+th {
+text-align: left;
 }
