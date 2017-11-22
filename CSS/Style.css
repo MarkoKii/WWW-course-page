@@ -1,5 +1,5 @@
 body {
-background:	#696969 url(WWW-course-page/Images/bg.jpg) repeat-x;
+background:	#696969 url("https://github.com/MarkoKii/WWW-course-page/blob/master/Images/bg.jpg?raw=true") repeat-x;
 }
 
 #wrap {
@@ -13,7 +13,7 @@ color: #7FFFD4;
 /* Header */
 #header {
 height:242PX;
- background:url(Images/header.jpg) no-repeat left top;
+ background:url("https://github.com/MarkoKii/WWW-course-page/blob/master/Images/header.jpg?raw=true") no-repeat left top;
  clear: both;
  /*
 margin:0px auto 15px auto;
