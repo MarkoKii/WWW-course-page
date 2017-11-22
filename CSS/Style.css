@@ -109,9 +109,12 @@ margin:0 auto;
  clear: both;
 }
 
+table {
+ border-spacing 5px;
+}
+
 table, th, td  {
-border:1px, solid #90EE90;
-border-collapse: collapse;
+border:1px solid red;
 padding: 15px;
 }
 th {
