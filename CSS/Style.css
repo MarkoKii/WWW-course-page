@@ -34,6 +34,7 @@ color: #7FFFD4;
       padding:0 0px 0px 278px;
      float: right;
      width: 415px;
+     position: fixed;
 }
 #topmenu li{
     display:inline;
