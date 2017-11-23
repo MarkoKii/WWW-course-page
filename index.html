@@ -4,7 +4,26 @@
    <head>
      <WWW & Internet Course Page</title>
      <link href="CSS/Style.css" rel="stylesheet" type="text/css">
-    </head>
+      
+      
+         <script>
+            function validateForm()
+            {
+            if (document.forms["myForm"]["gradethis"].value==null || document.form["myForm"]["gradethis"].value=="")
+            alert("A grade must be given");
+            return false;
+            }
+            {
+            if (document.forms["myForm"]["name"].value==null || document.form["myForm"]["name"].value=="")
+            alert("A name must be given");
+            return false;
+            }
+            return true;
+            }
+      </script>
+      
+            
+   </head>
   <body>
      <div id="wrap">
         <div id= "topbar">
@@ -94,6 +113,7 @@
             
             <input type="submit" value="Submit">
          </form>
+         
          
     </div>
     </div>
