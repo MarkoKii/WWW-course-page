@@ -9,13 +9,8 @@
          <script>
             function validateForm()
             {
-            if (document.forms["myForm"]["gradethis"].value==null || document.form["myForm"]["gradethis"].value=="")
-            alert("A grade must be given");
-            return false;
-            }
-            {
-            if (document.forms["myForm"]["name"].value==null || document.form["myForm"]["name"].value=="")
-            alert("A name must be given");
+            if (document.forms["myForm"]["email"].value==null || document.form["myForm"]["email"].value=="")
+            alert("An email must be given");
             return false;
             }
             return true;
@@ -115,7 +110,7 @@
          </script>
          <h2 id="contactus"> Contact Me </h2>
          
-         <form name="myForm" onsubmit ="return validateForm()">
+         <form name="Form">
             Grading Form <br> 
             Give a Grade to this page<input type="text" name="gradethis"> <br> 
              Who graded this? <input type="text" name="name"> <br>
@@ -130,6 +125,11 @@
             <option>Cats</option>
             <option>Cats</option>
             </select>
+            
+             <input type="submit" value="Submit">
+         </form>
+         
+         <form name="myForm" onsubmit ="return validateForm()">
             
             E-mail:<input type="email" name="email">
             
